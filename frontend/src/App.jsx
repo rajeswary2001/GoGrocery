@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import bgImage from './assets/home_background.png';
 import Home from './pages/Home.jsx';
 import Products from './pages/Products';
 import Cart from './pages/Cart';
@@ -16,9 +15,9 @@ function App() {
     const storedUser = JSON.parse(localStorage.getItem("user"));
     if (storedUser) setUser(storedUser);  
   }, []);
-
+ 
   return (
-    <div className="app-container" style={{ backgroundImage: `url(${bgImage})` }}>
+    <div>
       <Router>
         <nav>
           <Link to="/">Home</Link>

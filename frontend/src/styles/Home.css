@@ -1,3 +1,13 @@
+.app-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .home-banner-content {
   background-color: rgba(255, 255, 255, 0.85);
   padding: 5rem;

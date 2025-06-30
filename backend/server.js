@@ -6,7 +6,7 @@ const productRoutes = require("./product") //importing product.js file (which im
 
 const app = express() // creating the instance of our application
 
-const port = 5167 // 5167 is the port on which the frontend is running (vite+react)
+const port = 5167 // 5167 is the port on which the backend is running 
 
 app.use(cors())
 app.use(express.json())  // previously we imported the required middleware , now we are asking it to use or mount it on the app
